@@ -1,6 +1,4 @@
--- ================================================================
--- STEP 1 : CREATE THE TABLE
--- ================================================================
+
 
 CREATE DATABASE IF NOT EXISTS ecommerce;
 USE ecommerce;
@@ -231,9 +229,7 @@ INSERT INTO orders VALUES
 ('ORD0038', 'Karan Gupta', 'karan@gmail.com', '5204711671', 'Jaipur', 'Rajasthan', 'Electronics', 'Wireless Earbuds', '3', '2399.05', '7197.15', 'Wallet', 'Delivered', '2024-08-13'),
 ('ORD0047', 'Sara Layla', 'sara@gmail.com', '4044997278', 'Bangalore', 'Karnataka', 'Electronics', 'Power Bank', '4', '1764.39', '7057.56', 'Cash on Delivery', 'Cancelled', '2024-09-16');
 
--- ================================================================
--- STEP 2 : LOOK AT THE DATA FIRST
--- ================================================================
+
 
 -- See the first 10 rows
 SELECT * FROM orders LIMIT 10;
@@ -242,9 +238,7 @@ SELECT * FROM orders LIMIT 10;
 SELECT COUNT(*) AS total_rows FROM orders;
 
 
--- ================================================================
--- STEP 3 : FIND THE PROBLEMS
--- ================================================================
+
 
 -- Problem 1 : Duplicate rows
 -- Type 1 : Same order_id
